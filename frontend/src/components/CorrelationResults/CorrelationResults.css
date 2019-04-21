@@ -1,0 +1,18 @@
+.table-container {
+    overflow-x:auto;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: smaller;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {background-color: #f2f2f2;}
